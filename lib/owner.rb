@@ -11,7 +11,6 @@ class Owner
   end 
  
   def say_species
-    binding.pry
    "I am a human"
   end
   

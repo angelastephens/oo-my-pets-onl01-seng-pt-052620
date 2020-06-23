@@ -1,9 +1,9 @@
 class Owner
 
-  def initialize
+  attr_accessor :name
+  
+  def name
     @name=name
-  end 
-  
-  
+  end
   
 end

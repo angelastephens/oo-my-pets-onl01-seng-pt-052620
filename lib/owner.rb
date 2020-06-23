@@ -41,21 +41,10 @@ class Owner
   
   def buy_cat(name)
    cat =Cat.new(name,self)
-   
-    
-      # it 'can buy a cat that is an instance of the Cat class' do
-      #   expect(@owner.cats.count).to eq(0)
-
-      #   @owner.buy_cat("Crookshanks")
-      #   @owner.buy_cat("Whiskers")
-      #   @owner.buy_cat("Garfield")
-
-      #   @owner.cats.each do |cat|
-      #     expect(cat).to be_a(Cat)
-      #   end
-
-      #   expect(@owner.cats.count).to eq(3)
-      # end
-    
   end
+  
+  def buy_dog(name)
+   dog =Dog.new(name,self)
+  end
+  
 end

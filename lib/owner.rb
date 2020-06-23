@@ -40,7 +40,7 @@ class Owner
   
   
   def buy_cat(name)
-   cat =Cat.new
+   cat =Cat.new(name,self)
    
     
       # it 'can buy a cat that is an instance of the Cat class' do

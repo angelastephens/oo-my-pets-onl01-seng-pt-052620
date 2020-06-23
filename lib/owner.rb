@@ -1,6 +1,6 @@
 class Owner
 
-  def initialize
+  def initialize(name)
     @name=name
   end 
   

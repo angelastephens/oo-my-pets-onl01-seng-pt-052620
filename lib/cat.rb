@@ -7,7 +7,7 @@ class Cat
   end
   
   def owner
-    @owner=owner.new("")
+    @owner=owner.new(name)
     
   end
   

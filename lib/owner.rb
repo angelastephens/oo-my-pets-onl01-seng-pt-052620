@@ -1,3 +1,5 @@
+require 'pry'
+
 class Owner
 
   attr_accessor :owner
@@ -9,6 +11,7 @@ class Owner
   end 
  
   def say_species
+    binding.pry
     puts "I am a human"
   end
   

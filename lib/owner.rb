@@ -7,12 +7,6 @@ class Owner
     @owner=owner
   end 
   
-  def name
-    @name=name
-  end
   
-  def owner
-    @owner=owner.new(name)
-  end
   
 end

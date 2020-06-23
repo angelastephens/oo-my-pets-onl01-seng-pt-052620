@@ -5,5 +5,9 @@ class Cat
     @owner=owner
   end
   
+  def owner
+    @owner=owner.new
+    
+  end
   
 end

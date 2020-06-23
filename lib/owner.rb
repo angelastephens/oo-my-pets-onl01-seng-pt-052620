@@ -4,6 +4,7 @@ class Owner
  
    @@all=[]
    
+   
   attr_accessor :owner
   attr_reader :name, :species
   
@@ -19,6 +20,10 @@ class Owner
   
   def self.all 
     @@all 
+  end
+  
+  def self.count
+    binding.pry
   end
   
 end

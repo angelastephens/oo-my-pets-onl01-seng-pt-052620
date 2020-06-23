@@ -32,7 +32,7 @@ class Owner
   
   def cats
     binding.pry
-    Cats.all.collect()
+    Cat.all.collect()
     
   end
   

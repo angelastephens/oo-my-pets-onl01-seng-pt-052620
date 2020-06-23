@@ -47,8 +47,8 @@ class Owner
    dog =Dog.new(name,self)
   end
   
-  def walk_dog
-    self.dog
+  def walk_dogs
+    self.dogs.each {|dog| 
     
   end 
   

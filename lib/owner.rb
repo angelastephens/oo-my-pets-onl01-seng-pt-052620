@@ -41,7 +41,7 @@ class Owner
   
   def buy_cat(name,owner)
     binding.pry
-    Cat
+    
     
       # it 'can buy a cat that is an instance of the Cat class' do
       #   expect(@owner.cats.count).to eq(0)

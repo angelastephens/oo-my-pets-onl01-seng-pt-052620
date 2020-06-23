@@ -1,12 +1,13 @@
 class Cat
-  attr_accessor :name
+  attr_accessor
+  
   def initialize
     @name=name
     @owner=owner
   end
   
   def owner
-    @owner=owner.new(name)
+    @owner=owner.new("")
     
   end
   

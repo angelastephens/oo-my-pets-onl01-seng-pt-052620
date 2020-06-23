@@ -30,6 +30,8 @@ class Owner
     @@all.clear
   end 
   
-  def self.
+  def cats
+    binding.pry
+    Cats.all.collect()
   
 end

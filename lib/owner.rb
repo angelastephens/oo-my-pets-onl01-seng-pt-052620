@@ -69,7 +69,7 @@ class Owner
   end 
   
  def list_pets
-   "I have #{@owner.dogs.count}"
+   "I have #{@owner.dog.count}"
  end
 
 end
